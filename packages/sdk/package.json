@@ -1,11 +1,11 @@
 {
   "name": "@chenpilot-experimental/sdk",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Core SDK for Chen Pilot cross-chain operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "docs": "typedoc --options typedoc.json",
     "test": "jest --config jest.config.js",
     "test:watch": "jest --config jest.config.js --watch",
