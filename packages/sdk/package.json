@@ -1,6 +1,6 @@
 {
   "name": "@chen-pilot/sdk-core",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Core SDK for Chen Pilot cross-chain operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "type-check": "tsc --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
